@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <table border="1" style="border-radius: 5px;border: 1px solid aquamarine">
+        <tr>
+            <td colspan="4"> <input type="text" id="input_number"></td>
+        </tr>
+        <tr>
+            <td><button onclick="inputNumber('1')">1</button></td>
+            <td><button onclick="inputNumber('2')">2</button></td>
+            <td><button onclick="inputNumber('3')" >3</button></td>
+            <td><button onclick="inputNumber('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="inputNumber('4')">4</button></td>
+            <td><button onclick="inputNumber('5')">5</button></td>
+            <td><button onclick="inputNumber('6')">6</button></td>
+            <td><button onclick="inputNumber('-')" id="number_subtract" >-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="inputNumber('7')">7</button></td>
+            <td><button onclick="inputNumber('8')">8</button></td>
+            <td><button onclick="inputNumber('9')">9</button></td>
+            <td><button onclick="inputNumber('*')" id="number_multiplication">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="clearCalculator()">C</button></td>
+            <td><button onclick="inputNumber('0')">0</button></td>
+            <td><button onclick="calculate()" id="number_equal">=</button></td>
+            <td><button onclick="inputNumber('/')" id="number_chia">/</button></td>
+        </tr>
+    </table>
+</body>
+</html>
